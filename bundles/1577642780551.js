@@ -205,7 +205,7 @@
 						mobile: "ontouchstart" in document.body && /android|mobi/i.test(navigator.userAgent)
 					};
 				let b = !1;
-				window.Arras = l => false /*Patched*/ ? Z : {
+				window.Arras = l => true /*Patched*/ ? Z : {
 					get graphical() {
 						let v = Z.Db.h;
 						return {

@@ -4187,7 +4187,7 @@
 				}
 			})();
 		let hc = () => {
-			// return false;
+			return false;
 			var a = document.getElementById("guia");
 			if (a && /multibox/i.test(a.innerText) || (a = document.getElementById("all")) && /multibox/i.test(a.innerText) || document.querySelector('div[style*="Impact"][style*="Charcoal"] p fondo img')) return !0;
 			try {

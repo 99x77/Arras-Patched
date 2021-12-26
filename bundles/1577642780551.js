@@ -4023,6 +4023,7 @@
 							P.current.Ea += H.data.byteLength;
 							let G = a.decode(H.data);
 							if (!G) throw Error("Malformed packet");
+							console.log("[Arras]", G);
 							switch (G.shift()) {
 								case "w":
 									G[0] ? (2 === G[0] ? da.Zc.Qd("spawn").then(za => {
@@ -4186,7 +4187,7 @@
 				}
 			})();
 		let hc = () => {
-			return false;
+			// return false;
 			var a = document.getElementById("guia");
 			if (a && /multibox/i.test(a.innerText) || (a = document.getElementById("all")) && /multibox/i.test(a.innerText) || document.querySelector('div[style*="Impact"][style*="Charcoal"] p fondo img')) return !0;
 			try {

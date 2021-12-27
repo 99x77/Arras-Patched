@@ -1,4 +1,4 @@
-# Arras-Patched
+# Arras Patched
 
 ## Functions
 - Enable global variable of `Arras`

@@ -3816,7 +3816,6 @@ y.lgreen, y.orange, y.yellow, y.lavender, y.pink, y.vlgrey, y.lgrey, y.guiwhite,
 								var H = m();
 								let G = Math.round(this.x / H);
 								H = Math.round(this.y / H);
-								console.log("Input", "(x, y) = ", G, H);
 								if (this.Sc !== this.wa || this.Tc !== G || this.Uc !== H) F.g("C", G, H, this.wa), this.Sc = this.wa, this.Tc = this.je, this.Uc = this.ke
 							},
 							Od() {

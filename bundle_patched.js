@@ -3974,7 +3974,7 @@ y.lgreen, y.orange, y.yellow, y.lavender, y.pink, y.vlgrey, y.lgrey, y.guiwhite,
 							fa.ia.add(G[1]);
 							fa.view = G[2];
 							fa.a.view = fa.view;
-							$a && (clearInterval(gb), X = () => ma.push({
+							$a && (clearInterval(gb), X = () => true ? null /*Patched*/ : ma.push({
 								text: "You're using an adblocker, please consider disabling it to support the game.",
 								time: Date.now(),
 								duration: 3E4
